@@ -1,0 +1,42 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$gray: rgb(260, 260, 260);
+
+body {
+  background: $gray;
+  text-align: center;
+  h1 {
+    color: rgb(80, 80, 80)
+  }
+}
+
+#askagain {
+  text-decoration: none;
+  &:hover {
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
+#form {
+  text-align:left;
+  width: 800px;
+  margin: 0 auto;
+}
+
+#question {
+  margin: 16px auto;
+  width: 400px;
+  text-align: left;
+  border-left: 4px solid rgb(60, 60, 60);
+}
+
+#response {
+  margin: 16px auto;
+  width: 400px;
+  text-align: left;
+  border-left: 4px solid rgb(60, 60, 60);
+
+}
